@@ -5,6 +5,8 @@
 
 {
   config = {
+    nebunix.defaultPrograms.browser = "firefox";
+  
     home-manager.users."${systemInformation.userName}" = {
       programs.firefox = {
         enable = true;
